@@ -36,15 +36,20 @@ npx playwright show-report
 │   ├── 01_Basics/
 │   │   ├── Lab209.spec.ts
 │   │   └── Lab210_Test_Annoations.spec.ts
-│   └── 02_first_tests/
-│       ├── 211_First_Running_Test.spec.ts
-│       ├── 212_Browser_Context_Pages.spec.ts
-│       ├── 213_Multile_Context.spec.ts
-│       ├── 214_Multiple_Pages.spec.ts
-│       ├── 215_TEST_PW.spec.ts
-│       ├── 216_Manual_Context.spec.ts
-│       ├── 217_Manual_Context_Options.spec.ts
-│       └── 218_Context_Reuse.spec.ts
+│   ├── 02_first_tests/
+│   │   ├── 211_First_Running_Test.spec.ts
+│   │   ├── 212_Browser_Context_Pages.spec.ts
+│   │   ├── 213_Multile_Context.spec.ts
+│   │   ├── 214_Multiple_Pages.spec.ts
+│   │   ├── 215_TEST_PW.spec.ts
+│   │   ├── 216_Manual_Context.spec.ts
+│   │   ├── 217_Manual_Context_Options.spec.ts
+│   │   └── 218_Context_Reuse.spec.ts
+│   └── 03_Locators_Commands/
+│       ├── 219_Commands.spec.ts
+│       ├── 220_GotoCommands.spec.ts
+│       ├── 221_Reffer_Command.spec.ts
+│       └── 222_Automation.vwo.com.spec.ts
 ├── .github/
 │   └── workflows/
 │       └── playwright.yml
