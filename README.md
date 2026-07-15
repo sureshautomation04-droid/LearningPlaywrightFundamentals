@@ -53,12 +53,16 @@ npx playwright show-report
 ├── tests/
 │   ├── 01_Basics/
 │   │   ├── Lab209.spec.ts
-│   │   └── Lab210_Test_Annotations.spec.ts
+│   │   └── Lab210_Test_Annoations.spec.ts
 │   └── 02_first_tests/
 │       ├── 211_First_Running_Test.spec.ts
 │       ├── 212_Browser_Context_Pages.spec.ts
 │       ├── 213_Multile_Context.spec.ts
-│       └── 214_Multiple_Pages.spec.ts
+│       ├── 214_Multiple_Pages.spec.ts
+│       ├── 215_TEST_PW.spec.ts
+│       ├── 216_Manual_Context.spec.ts
+│       ├── 217_Manual_Context_Options.spec.ts
+│       └── 218_Context_Reuse.spec.ts
 ├── .github/
 │   └── workflows/
 │       └── playwright.yml
