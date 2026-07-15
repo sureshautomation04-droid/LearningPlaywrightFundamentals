@@ -1,6 +1,6 @@
 # Learning Playwright Fundamentals
 
-A project to learn and practice Playwright test automation fundamentals. It covers basic annotations, browser contexts, pages, and multi-page/multi-context scenarios with a GitHub Actions CI pipeline.
+A project to learn and practice Playwright test automation fundamentals. Covers basic annotations, browser contexts, pages, multi-page/multi-context scenarios, and CI integration with GitHub Actions.
 
 ## Prerequisites
 
@@ -11,37 +11,19 @@ A project to learn and practice Playwright test automation fundamentals. It cove
 
 ```bash
 npm install
-```
-
-Install Playwright browsers:
-
-```bash
 npx playwright install
 ```
 
 ## Running Tests
 
-Run all tests:
+| Command | Description |
+|---------|-------------|
+| `npx playwright test` | Run all tests |
+| `npx playwright test --ui` | Run tests with UI mode |
+| `npx playwright test tests/01_Basics/Lab209.spec.ts` | Run a specific test file |
+| `npx playwright test --grep "smoke"` | Run tests matching a tag |
 
-```bash
-npx playwright test
-```
-
-Run tests with UI mode:
-
-```bash
-npx playwright test --ui
-```
-
-Run tests in a specific file:
-
-```bash
-npx playwright test tests/01_Basics/Lab209.spec.ts
-```
-
-## View Test Report
-
-After running tests, view the HTML report:
+## View Report
 
 ```bash
 npx playwright show-report
@@ -66,6 +48,7 @@ npx playwright show-report
 ├── .github/
 │   └── workflows/
 │       └── playwright.yml
+├── .gitignore
 ├── playwright.config.ts
 ├── package.json
 └── README.md
@@ -73,4 +56,8 @@ npx playwright show-report
 
 ## Configuration
 
-Tests are configured to run on Chromium by default. Edit `playwright.config.ts` to enable Firefox, WebKit, or mobile viewports.
+Tests run on Chromium by default. Edit `playwright.config.ts` to enable Firefox, WebKit, or mobile viewports.
+
+## CI/CD
+
+A GitHub Actions workflow (`.github/workflows/playwright.yml`) runs tests on every push and pull request to main/master, with HTML report uploaded as an artifact.
