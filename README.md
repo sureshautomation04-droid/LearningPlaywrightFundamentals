@@ -54,7 +54,12 @@ npx playwright show-report
 │       ├── 224_GetRole.spec.ts
 │       ├── 225_CSS_Locators.spec.ts
 │       ├── 226_PressSequentially.spec.ts
-│       └── 227_Cookies.spec.ts
+│       ├── 227_Cookies.spec.ts
+│       └── README.md
+│   └── 04_Session_Storage/
+│       ├── 228_Session.spec.ts
+│       ├── 229.TestVWo.spec.ts
+│       └── README.md
 ├── .github/
 │   └── workflows/
 │       └── playwright.yml
