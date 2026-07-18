@@ -51,7 +51,10 @@ npx playwright show-report
 │       ├── 221_Reffer_Command.spec.ts
 │       ├── 222_Automation.vwo.com.spec.ts
 │       ├── 223_Xpath.spec.ts
-│       └── 224_GetRole.spec.ts
+│       ├── 224_GetRole.spec.ts
+│       ├── 225_CSS_Locators.spec.ts
+│       ├── 226_PressSequentially.spec.ts
+│       └── 227_Cookies.spec.ts
 ├── .github/
 │   └── workflows/
 │       └── playwright.yml
