@@ -8,3 +8,14 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Generated reports
+tta-report/
+allure-report/
+allure-results/
+
+# MCP tooling
+.playwright-mcp/
+
+# Session data
+user-session.json

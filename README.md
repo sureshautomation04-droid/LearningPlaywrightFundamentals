@@ -45,27 +45,29 @@ npx playwright show-report
 │   │   ├── 216_Manual_Context.spec.ts
 │   │   ├── 217_Manual_Context_Options.spec.ts
 │   │   └── 218_Context_Reuse.spec.ts
-│   └── 03_Locators_Commands/
-│       ├── 219_Commands.spec.ts
-│       ├── 220_GotoCommands.spec.ts
-│       ├── 221_Reffer_Command.spec.ts
-│       ├── 222_Automation.vwo.com.spec.ts
-│       ├── 223_Xpath.spec.ts
-│       ├── 224_GetRole.spec.ts
-│       ├── 225_CSS_Locators.spec.ts
-│       ├── 226_PressSequentially.spec.ts
-│       ├── 227_Cookies.spec.ts
-│       └── README.md
-│   └── 04_Session_Storage/
-│       ├── 228_Session.spec.ts
-│       ├── 229.TestVWo.spec.ts
-│       └── README.md
+│   ├── 03_Locators_Commands/
+│   │   ├── 219_Commands.spec.ts
+│   │   ├── 220_GotoCommands.spec.ts
+│   │   ├── 221_Reffer_Command.spec.ts
+│   │   ├── 222_Automation.vwo.com.spec.ts
+│   │   ├── 223_Xpath.spec.ts
+│   │   ├── 224_GetRole.spec.ts
+│   │   ├── 225_CSS_Locators.spec.ts
+│   │   ├── 226_PressSequentially.spec.ts
+│   │   ├── 227_Cookies.spec.ts
+│   │   └── README.md
+│   ├── 04_Session_Storage/
+│   │   ├── 228_Session.spec.ts
+│   │   ├── 229.TestVWo.spec.ts
+│   │   └── README.md
 │   ├── 06_Multiple_Element/
 │   │   └── 231_Multiple_Element.spec.ts
 │   └── 07_WebTables/
 │       ├── 232_WebTable_Basic.spec.ts
 │       ├── 233_WebTable_Dyanamic.spec.ts
 │       └── 234_Web.spec.ts
+├── utils/
+│   └── CustomTTAReporter.ts
 ├── .github/
 │   └── workflows/
 │       └── playwright.yml
