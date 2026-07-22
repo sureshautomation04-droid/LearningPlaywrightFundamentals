@@ -60,6 +60,12 @@ npx playwright show-report
 │       ├── 228_Session.spec.ts
 │       ├── 229.TestVWo.spec.ts
 │       └── README.md
+│   ├── 06_Multiple_Element/
+│   │   └── 231_Multiple_Element.spec.ts
+│   └── 07_WebTables/
+│       ├── 232_WebTable_Basic.spec.ts
+│       ├── 233_WebTable_Dyanamic.spec.ts
+│       └── 234_Web.spec.ts
 ├── .github/
 │   └── workflows/
 │       └── playwright.yml
