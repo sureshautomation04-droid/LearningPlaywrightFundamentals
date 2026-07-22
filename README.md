@@ -81,6 +81,8 @@ npx playwright show-report
 
 Tests run on Chromium by default. Edit `playwright.config.ts` to enable Firefox, WebKit, or mobile viewports.
 
-## CI/CD
 
-A GitHub Actions workflow (`.github/workflows/playwright.yml`) runs tests on every push and pull request to main/master, with HTML report uploaded as an artifact.
+
+## License
+
+This project is for educational purposes.
