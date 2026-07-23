@@ -60,17 +60,21 @@ npx playwright show-report
 │   │   ├── 228_Session.spec.ts
 │   │   ├── 229.TestVWo.spec.ts
 │   │   └── README.md
+│   ├── 05_Allure_Reporting/
+│   │   └── 230_Login.spec.ts
 │   ├── 06_Multiple_Element/
 │   │   └── 231_Multiple_Element.spec.ts
-│   └── 07_WebTables/
-│       ├── 232_WebTable_Basic.spec.ts
-│       ├── 233_WebTable_Dyanamic.spec.ts
-│       └── 234_Web.spec.ts
+│   ├── 07_WebTables/
+│   │   ├── 232_WebTable_Basic.spec.ts
+│   │   ├── 233_WebTable_Dyanamic.spec.ts
+│   │   └── 234_Web.spec.ts
+│   └── 08_Dropdown/
+│       ├── 235_Select_dropdown.spec.ts
+│       ├── 236_Div_dropdown.spec.ts
+│       ├── 237_Adavanced_dropdown.spec.ts
+│       └── 238_Adavanced_dropdownv2.spec.ts
 ├── utils/
 │   └── CustomTTAReporter.ts
-├── .github/
-│   └── workflows/
-│       └── playwright.yml
 ├── .gitignore
 ├── playwright.config.ts
 ├── package.json
@@ -80,6 +84,26 @@ npx playwright show-report
 ## Configuration
 
 Tests run on Chromium by default. Edit `playwright.config.ts` to enable Firefox, WebKit, or mobile viewports.
+
+## Reporting
+
+The project includes:
+- **Playwright Reporter**: `npx playwright show-report`
+- **Allure Reporting**: Tests in `05_Allure_Reporting/` demonstrate Allure integration
+- **Custom TTA Reporter**: A custom reporter is available in `utils/CustomTTAReporter.ts`
+
+## Test Coverage
+
+| Module | Description |
+|--------|-------------|
+| 01_Basics | Playwright annotations and basic test structure |
+| 02_first_tests | Browser contexts, pages, multi-page/multi-context scenarios |
+| 03_Locators_Commands | CSS/XPath locators, commands, cookies |
+| 04_Session_Storage | Session storage and authentication |
+| 05_Allure_Reporting | Allure reporting integration |
+| 06_Multiple_Element | Handling multiple elements |
+| 07_WebTables | Static and dynamic web table handling |
+| 08_Dropdown | Select, div-based, and advanced dropdown interactions |
 
 
 
