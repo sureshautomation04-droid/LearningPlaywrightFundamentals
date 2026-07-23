@@ -72,7 +72,9 @@ npx playwright show-report
 │       ├── 235_Select_dropdown.spec.ts
 │       ├── 236_Div_dropdown.spec.ts
 │       ├── 237_Adavanced_dropdown.spec.ts
-│       └── 238_Adavanced_dropdownv2.spec.ts
+│       ├── 238_Adavanced_dropdownv2.spec.ts
+│   └── 09_Frame_Iframe/
+│       └── frame.spec.ts
 ├── utils/
 │   └── CustomTTAReporter.ts
 ├── .gitignore
@@ -104,6 +106,7 @@ The project includes:
 | 06_Multiple_Element | Handling multiple elements |
 | 07_WebTables | Static and dynamic web table handling |
 | 08_Dropdown | Select, div-based, and advanced dropdown interactions |
+| 09_Frame_Iframe | Frame and iframe handling, vehicle registration form |
 
 
 
